@@ -1,0 +1,20 @@
+   # Secrets
+   .env
+
+   # Captured data (contains real attacker IP addresses = personal data under GDPR)
+   *.db
+   *.db-wal
+   *.db-shm
+   cowrie_processed.txt
+   *.log
+
+   # Python
+   __pycache__/
+   *.pyc
+   .venv/
+   venv/
+
+   # OS / editor
+   .DS_Store
+   .idea/
+   .vscode/
